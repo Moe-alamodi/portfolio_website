@@ -6,23 +6,23 @@ export const hero = {
 
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Hoobank",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Hoobank is a modern and responsive website for a bank. A minimal design with responsiveness and soothing design along with using the most in demand technologies today to build and deploy.",
+    image: "/images/hoobank.png",
+    tags: ["HTML", "React", "Tailwindcss", "Vite", "NPM"],
+    source: "https://github.com/Moe-alamodi/hoobank",
+    visit: "https://hoobank-1.netlify.app/",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Clear View",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Clear View a responsive web application for a fictional travel agency.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.",
+    image: "/images/clearview.png",
+    tags: ["HTML", "JavaScript", "CSS", "Webpack", "BEM & PostCSS"],
+    source: "https://github.com/Moe-alamodi/Clear-View",
+    visit: "https://distracted-hypatia-9c35f1.netlify.app/",
     id: 1,
   },
   {
