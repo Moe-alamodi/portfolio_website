@@ -26,9 +26,7 @@ const Hero = () => (
         Self-taught Web Application Developer with proven experience handling
         front end web applications for clients
       </SectionText>
-      <HeroBtn
-        onClick={() => (window.location = "https://github.com/Moe-alamodi")}
-      >
+      <HeroBtn onClick={() => (window.location = "#projects")}>
         <HeroBtnSpan1 />
         <HeroBtnSpan2 />
         <HeroBtnSpan3 />
