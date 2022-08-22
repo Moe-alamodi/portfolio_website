@@ -6,7 +6,14 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import {
+  HeroBtn,
+  HeroBtnSpan1,
+  HeroBtnSpan2,
+  HeroBtnSpan3,
+  HeroBtnSpan4,
+  LeftSection,
+} from "./HeroStyles";
 
 const Hero = () => (
   <Section row nopadding>
@@ -19,11 +26,15 @@ const Hero = () => (
         Self-taught Web Application Developer with proven experience handling
         front end web applications for clients
       </SectionText>
-      <Button
+      <HeroBtn
         onClick={() => (window.location = "https://github.com/Moe-alamodi")}
       >
+        <HeroBtnSpan1 />
+        <HeroBtnSpan2 />
+        <HeroBtnSpan3 />
+        <HeroBtnSpan4 />
         Learn More
-      </Button>
+      </HeroBtn>
     </LeftSection>
   </Section>
 );
