@@ -69,3 +69,13 @@ export const TimeLineData = [
     text: "Started to learn Web 3.0 and I can not wait to build my first web 3.0 application  ",
   },
 ];
+export const AcoplishmentsData = [
+  {
+    title: "DNSnetworks Corporation",
+    text: "Entrusted with the full-stack application delivery, from conception and design to coding and deployment of the company and its subdivisions websites.",
+  },
+  {
+    title: "Staples Canada",
+    text: "Promoted to be the Store Receiver/Warehouse supervisor after 3 monthes working",
+  },
+];
