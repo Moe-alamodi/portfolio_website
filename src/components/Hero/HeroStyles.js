@@ -20,6 +20,7 @@ export const LeftSection = styled.div`
 export const HeroBtn = styled.a`
   position: relative;
   display: inline-block;
+  align-self: center;
   padding: 10px 20px;
   font-size: 2rem;
   text-decoration: none;
