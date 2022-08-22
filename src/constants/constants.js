@@ -48,9 +48,24 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    year: 2018,
+    text: "Graduated from carleton university with a degree in electrical engineering",
+  },
+  {
+    year: 2019,
+    text: "Discovered my passion for web developemnt and started my self-learning journey",
+  },
+  {
+    year: 2020,
+    text: "Continued to sharpen my skills while workong full-time as Receiver/Warehouse Supervisor at Staples Canada",
+  },
+  {
+    year: 2021,
+    text: "Started my first web development job as Application Developer at a fintech startup called DNSnetworks Corporation where I help develope and customize our codebase to fit new client needs",
+  },
+  {
+    year: 2022,
+    text: "Started to learn Web 3.0 and I can not wait to build my first web 3.0 application  ",
+  },
 ];
