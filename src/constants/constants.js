@@ -7,10 +7,9 @@ export const hero = {
 export const projects = [
   {
     title: "Hoobank",
-    description:
-      "Hoobank is a modern and responsive website for a bank. A minimal design with responsiveness and soothing design along with using the most in demand technologies today to build and deploy.",
+    description: "Hoobank is a modern and responsive website for a bank.",
     image: "/images/hoobank.png",
-    tags: ["HTML", "React", "Tailwindcss", "Vite", "NPM"],
+    tags: ["HTML", "React", "Tailwindcss", "Vite"],
     source: "https://github.com/Moe-alamodi/hoobank",
     visit: "https://hoobank-1.netlify.app/",
     id: 0,
@@ -18,35 +17,51 @@ export const projects = [
   {
     title: "Clear View",
     description:
-      "Clear View a responsive web application for a fictional travel agency.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.",
+      "Clear View is a responsive web application for a fictional travel agency.",
     image: "/images/clearview.png",
-    tags: ["HTML", "JavaScript", "CSS", "Webpack", "BEM & PostCSS"],
+    tags: ["HTML", "JavaScript", "CSS", "Webpack"],
     source: "https://github.com/Moe-alamodi/Clear-View",
     visit: "https://distracted-hypatia-9c35f1.netlify.app/",
     id: 1,
   },
+  // {
+  //   title: "WebRTC App",
+  //   description:
+  //     "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+  //   image: "/images/3.jpg",
+  //   tags: ["React", "WebRTC"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 2,
+  // },
+  // {
+  //   title: "Unichat",
+  //   description:
+  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: "/images/4.jpg",
+  //   tags: ["React", "ChatEngine", "Firebase"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 3,
+  // },
+];
+export const TechnologiesData = [
   {
-    title: "WebRTC App",
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
+    icon: "DiReact",
+    title: "Front-End",
+    text: "HTML5, CSS, JavaScript, React.js.",
   },
   {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
+    icon: "DiReact",
+    title: "Back-End",
+    text: "Node.js",
+  },
+  {
+    icon: "DiReact",
+    title: "Toolkits",
+    text: " Git, GitHub, Gitlab, NPM, Sass",
   },
 ];
-
 export const TimeLineData = [
   {
     year: 2018,
@@ -62,7 +77,7 @@ export const TimeLineData = [
   },
   {
     year: 2021,
-    text: "Started my first web development job as Application Developer at a fintech startup called DNSnetworks Corporation where I help develope and customize our codebase to fit new client needs",
+    text: "Started my first web development job as Application Developer where I help develope and customize our codebase to fit new client needs",
   },
   {
     year: 2022,

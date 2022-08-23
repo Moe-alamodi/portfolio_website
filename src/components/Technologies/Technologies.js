@@ -1,5 +1,7 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { VscTools } from "react-icons/vsc";
+
 import {
   Section,
   SectionDivider,
@@ -42,6 +44,16 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             Node.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <VscTools size="3rem" />
+        <ListContainer>
+          <ListTitle>Toolkits</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Git, GitHub, Gitlab, NPM, Sass
           </ListParagraph>
         </ListContainer>
       </ListItem>

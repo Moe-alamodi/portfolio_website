@@ -23,13 +23,17 @@ export const Boxes = styled.div`
 `;
 
 export const Box = styled.div`
-  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    200.39deg,
+    #0f1624 -188.56%,
+    #fff -150.47%,
+    #0f1624 51.61%
+  );
   border-radius: 16px;
   max-height: 300px;
   padding: 14px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
   @media ${(props) => props.theme.breakpoints.lg} {
     ${"" /* height: 210px; */}
   }
