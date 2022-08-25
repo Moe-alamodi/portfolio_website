@@ -81,14 +81,21 @@ export const SectionText = styled.p`
 `;
 
 export const SectionDivider = styled.div`
-  width: 20%;
+  width: 100%;
   height: 1px;
   border-radius: 10px;
-  background-color: #fff;
-  background: ${(props) =>
+  background: linear-gradient(
+    140.39deg,
+    #945dd6 -78.56%,
+    #945dd6 -98.47%,
+    #0f1624 75.61%
+  );
+  ${
+    "" /* background: ${(props) =>
     props.colorAlt
       ? "linear-gradient(270deg, #33bbcf 0%, #9dedf0 100%)"
-      : "linear-gradient(270deg, #f46737 0%, #945DD6 100%)"};
+      : "linear-gradient(270deg, #f46737 0%, #945DD6 100%)"}; */
+  }
 
   margin: ${(props) => (props.divider ? "4rem 0" : "")};
 

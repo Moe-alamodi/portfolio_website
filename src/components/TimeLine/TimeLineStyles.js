@@ -40,10 +40,10 @@ export const CarouselMobileScrollNode = styled.div`
 
 export const CarouselItem = styled.div`
   background: linear-gradient(
-    40.39deg,
+    140.39deg,
     #0f1624 -78.56%,
     #03e9f4 -98.47%,
-    #0f1624 10.61%
+    #0f1624 15.61%
   );
   border-radius: 10px;
   max-width: 196px;
