@@ -8,6 +8,7 @@ import {
   Div1,
   Div2,
   Div3,
+  Logo,
   NavLink,
   SocialIcons,
   Span,
@@ -25,8 +26,7 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" />
-          <Span>AMODI</Span>
+          <Logo src="/images/logo.png" />
         </a>
       </Link>
     </Div1>
