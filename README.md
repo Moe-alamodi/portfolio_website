@@ -13,7 +13,7 @@
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://github.com/Moe-alamodi/portfolio_website">View Demo</a>
     ·
     <a href="https://github.com/Moe-alamodi/portfolio_website/issues">Report Bug</a>
     ·
